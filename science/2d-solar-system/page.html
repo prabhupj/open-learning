@@ -1,0 +1,74 @@
+<!--
+MIT License
+
+Copyright (c) 2022 Prabaharan Jayabalan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<!DOCTYPE html>
+<!--[if lte IE 9]>
+<html class="ie" lang="en">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<title>Solar System animation</title>
+<link rel="stylesheet" media="all" href="solar-system.css" />
+</head>
+<body>
+<div class='description'>
+  <h1>Solar System</h1>
+  <hr>
+  <p>
+    An attempt to create open learning for all kids in our solar system :)
+  </p>
+  <p>
+    Here is a true time scaled solar-system, which means that every objects have a time relative to an Earth year.
+    You can change the number in second of the
+    <br>
+    <code>$year-in-second</code>
+    variable to increase the speed of revolutions. Here 1 year = 30 seconds.
+  </p>
+  <p class='hide'>
+    Note the css tricks for the Saturn rings (box-shadow) and reverse animation to compensate the orbit.
+  </p>
+  <hr>
+  <p class='author'>
+    Made with
+    <i class='fa fa-heart'></i>
+    by <a href="https://github.com/prabhupj" target="_blank">Prabaharan</a>
+  </p>
+</div>
+<div class='solar-syst'>
+  <div class='sun'></div>
+  <div class='mercury'></div>
+  <div class='venus'></div>
+  <div class='earth'></div>
+  <div class='mars'></div>
+  <div class='jupiter'></div>
+  <div class='saturn'></div>
+  <div class='uranus'></div>
+  <div class='neptune'></div>
+  <div class='pluto'></div>
+  <div class='asteroids-belt'></div>
+</div>
+</body>
+</html>
